@@ -1,0 +1,22 @@
+.seats {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  text-align: center;
+  line-height: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.seat.available {
+  background-color: #90ee90;
+}
+
+.seat.booked {
+  background-color: #ffcccb;
+}
